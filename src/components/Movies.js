@@ -8,7 +8,7 @@ function Movies() {
       {movies.map((movie) => {
         return (
           <div>
-            <h2>Name: {movie.title}</h2>
+            <h3>Name: {movie.title}</h3>
             <p>Time: {movie.time}</p>
             <p>Genres:</p>
             <ul>
